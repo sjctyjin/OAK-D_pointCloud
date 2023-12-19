@@ -1,0 +1,22 @@
+trackChiTestOutlierR: 3
+trackOutlierThresholdGrowthFactor: 1.3
+hybridMapSize: 2
+sampleSyncLag: 1
+outputCameraPose: True
+trackingStatusInitMinSeconds: 0.5
+imuAnomalyFilterGyroEnabled: True
+imuStationaryEnabled: True
+cameraTrailLength: 12
+cameraTrailHanoiLength: 8
+maxTracks: 5000
+depthErrorScale: 0.1
+useSlam: True
+delayFrames: 2
+noWaitingForResults: True
+maxSlamResultQueueSize: 2
+keyframeCandidateInterval: 0
+alreadyRectified: true
+computeDenseStereoDepth: true
+computeStereoPointCloud: true
+pointCloudNormalsEnabled: true
+
